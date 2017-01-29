@@ -7,17 +7,19 @@
 ### Steps to reproduce
 
 <!--
-Include if relevant.
+Provide steps to reproduce the issue, if relevant.
 
-Please execute `:let g:neomake_verbose = 3` to enable verbose output, which
-might help showing the issue already.
-Look at `:messages` to see them.
+1. Please execute `:let g:neomake_verbose = 3` before (to enable verbose
+   output/logging).
+2. Look at `:messages` for its output, which might help showing the issue
+   already.
 -->
 
-### Output of the ":verb NeomakeInfo" command
+### Output from (verbose) NeomakeInfo
 
 <!--
 Paste the output from `:verbose NeomakeInfo` here.
-You can use `:redir @+> | silent verb NeomakeInfo | redir END` to copy it to
-your clipboard.
+You can use the following command to copy it directly to your clipboard:
+
+    :redir @+> | silent verb NeomakeInfo | redir END
 -->
