@@ -10,9 +10,9 @@ function! neomake#makers#ft#php#php() abort
             \      '-d', 'xdebug.cli_color=0'],
         \ 'errorformat':
             \ '%-GNo syntax errors detected in%.%#,'.
-            \ '%EParse error: %#syntax %trror\, %m in %f on line %l,'.
-            \ '%EParse %trror: %m in %f on line %l,'.
-            \ '%EFatal %trror: %m in %f on line %l,'.
+            \ '%EParse error: %#syntax error\, %m in %f on line %l,'.
+            \ '%EParse error: %m in %f on line %l,'.
+            \ '%EFatal error: %m in %f on line %l,'.
             \ '%-G\s%#,'.
             \ '%-GErrors parsing %.%#',
         \ }
